@@ -1,0 +1,41 @@
+:root {
+    --dark-blue: #001B3A;
+    --blue: #6c8aa4;
+    --light-blue: #b5c3d1;
+    --lighter-blue: #f8f9fa;
+}
+
+.bg-navbar {
+    background-color: var(--lighter-blue);
+}
+
+.vertical-line{
+    margin: 0.5em;
+}
+
+.logo{
+    color: #e5f8d2;
+    background: var(--yellow);
+    background: linear-gradient(to left, var(--light-blue), var(--blue), var(--dark-blue)); 
+    
+    padding: 0.15em;
+    border-radius: 40px;
+}
+
+@media only screen and (max-width: 40em) {
+    .vertical-line{
+        display: none;
+    }
+}
+
+.notification-alert {
+    margin-top: -0.75em;
+    margin-left: -0.75em;
+}
+
+@media only screen and (max-width: 40em) {
+    .notification-alert {
+        margin-top: -0.75em;
+        margin-left: -3.25em;
+    }
+}

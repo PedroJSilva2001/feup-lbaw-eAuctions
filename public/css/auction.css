@@ -1,0 +1,96 @@
+.follow-auction-btn {
+    color: var(--bg-color);
+    background: var(--dark-blue);
+    padding: 1em 0em;
+}
+
+.follow-auction-btn:hover {
+    background-color: var(--light-blue);
+}
+
+.follow-auction {
+    padding: 1em;
+}
+
+.carousel-container {
+    padding-right:4em;
+}
+
+.carousel {
+    padding-bottom: 5em;
+    border-radius: 40px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel, .carousel-item > img {
+    height:500px;
+    z-index: 1;
+    object-fit: contain;
+}
+
+.auction-description {
+    padding-right: 2em;
+    padding-left: 0em;
+}
+
+.seller-picture {
+    height: 10em;
+    width: 10em;
+
+    padding: 1em;
+}
+
+.auction-side-container {
+    border-radius: 40px;
+    height: 8em;
+    margin-bottom: 1em;
+}
+
+.bidding-history-container {
+    background-color: var(--lighter-blue);
+    border-radius: 40px;
+    height: 25em;
+    margin-bottom: 1em;
+}
+
+.display-comment {
+    max-height: 200px;
+}
+
+.auction-comments {
+    background-color: var(--lighter-blue);
+    border-radius: 40px;
+    margin-bottom: 1em;
+}
+
+.bid-input {
+    position:relative;
+    height: 2em;
+    padding: 1em;
+}
+
+.currency-symbol {
+    position: absolute;
+    left: 8px;
+    top: 13px;
+    z-index: 1;
+}
+
+.auction-page {
+    padding: 0em 10em;
+}
+
+@media only screen and (max-width: 70em) {
+    .auction-page {
+        padding: 1em;
+    }
+}
+
+@media only screen and (max-width: 47em) {
+    .carousel-container {
+        padding-right: 0em;
+    }
+}

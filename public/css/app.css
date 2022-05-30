@@ -1,0 +1,65 @@
+:root {
+  --bg-color: #FBFBFD;
+}
+
+html, body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: var(--bg-color);
+  color:var(--dark-blue);
+  font-family: Sora, monospace;
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+.title-text {
+  padding: 1rem 3rem;
+}
+
+/* ---------------- */
+/* Create Auction */
+.checkbox-menu li label {
+  display: block;
+  padding: 3px 10px;
+  font-weight: normal;
+}
+
+.profile-image {
+  margin-right: 20px;
+  width: 30%; 
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-image {
+    width: 20%; 
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .border-width {
+    border: hidden !important;
+  }
+}
+
+.border-width {
+  border-right: 1px solid #b5c3d1;
+}
+
+@media (min-width: 768px)
+{
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-header button {
+        display: block;
+    }
+}

@@ -1,0 +1,43 @@
+.auth-card {
+    
+    background-color: var(--lighter-blue);
+    border: 1.5px solid var(--dark-blue);
+    border-radius: 40px;
+    margin: 5rem 1rem;
+}
+
+.auth-title {
+    color: var(--bg-color);
+    background-color: var(--dark-blue);
+    font-size: larger;  
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1.5px solid var(--dark-blue);
+    border-radius: 40px 40px 0px 0px;
+}
+
+.enter-info {
+    color: var(--bg-color);
+    background: var(--dark-blue);
+    padding: 1em 3em;
+}
+
+.forms-info {
+    padding: 0em 3em;
+}
+
+hr {
+    border-width: 0; 
+}
+
+@media not screen and (max-width: 40em) {
+    .auth-card {
+        width: 40em;
+    }
+}
+
+@media not screen and (max-width: 40em) {
+    .profile-main, .profile-settings {
+        width: 40em;
+    }
+}

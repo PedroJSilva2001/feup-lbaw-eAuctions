@@ -1,0 +1,28 @@
+.filter-btn {
+    color: var(--bg-color);
+    background: var(--dark-blue);
+    padding: 1em 0em;
+    width: 10rem;
+
+    margin-top: 2em;
+}
+
+.accordion-button {
+    font-size: 0.5em;
+    color: var(--dark-blue);
+}
+
+.accordion-btn-color {
+    background-color: var(--light-blue);
+}
+
+.filter-form {
+    padding: 0em 1em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .collapsing {
+        transition-property: height, visibility;
+        transition-duration: .35s;
+    }
+}

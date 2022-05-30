@@ -1,0 +1,45 @@
+.auction-card-price-title {
+    margin-bottom: 0;
+}
+
+.auction-card {
+    border: none;
+    outline: none;
+    background-color: var(--lighter-blue);
+    border-radius: 20px;
+    transition: transform .3s;
+    height: 100%;
+}
+
+.auction-card:hover {
+    transform: translateY(-5px);
+    transition: transform .3s;
+}
+
+.auction-card-img-thumbnail {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.card-title {
+    padding:1em;
+}
+
+.card-text {
+    font-size: 1.2em;
+}
+
+.time-remaining-text {
+    margin-top: 0;
+    margin-bottom: 5px !important;
+}
+
+.auction-current-value {
+    margin-bottom: 0 !important;
+}
+
+.card-price {
+    margin-left: 2% !important;
+}
